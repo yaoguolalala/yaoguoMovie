@@ -1,0 +1,51 @@
+page{
+  background: #eee;
+}
+.header{
+  text-align: center;
+  padding: 20rpx;
+  background: #eee;
+}
+.movie-card{
+  border-bottom: 5rpx solid #eee; 
+  background: white;
+  position: relative;
+  width: 100%;
+  height: 240rpx;
+}
+.movie-post{
+  margin-left: 30rpx;
+  margin-top: 34rpx;
+  width: 140rpx;
+  height: 180rpx;
+  background: #ff6699
+}
+.movie-card .movie-name{
+  position: absolute;
+  top: 28rpx;
+  left: 200rpx;
+}
+.movie-card .movie-ENname{
+  color: #ccc;
+  font-size: 30rpx;
+  font-style: initial;
+  position: absolute;
+  top: 98rpx;
+  left: 200rpx;
+}
+.movie-card .movie-actor{
+  font-size: 32rpx;
+  color: #999;
+  font-style: initial;
+  position: absolute;
+  bottom: 30rpx;
+  left: 200rpx;
+}
+.grade{
+  font-style: initial;
+  color: orangered;
+  font-size:32rpx; 
+  position: absolute;
+  bottom: 30rpx;
+  right: 30rpx;
+}

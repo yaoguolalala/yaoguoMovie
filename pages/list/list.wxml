@@ -1,0 +1,14 @@
+<view class='container'>
+  <view class='header'>
+   <text>{{title}}</text>
+  </view>
+  <block wx:for='{{list}}' wx:key='key'>
+  <view class='movie-card'>
+    <image class='movie-post'src='{{item.images.large}}'></image>
+    <text class='movie-name'>{{item.original_title}}</text>
+    <text class='movie-ENname'>{{item.year}}</text>
+    <text class='movie-actor'>导演：{{item.directors[0].name}}</text>
+    <text class='grade'>{{item.rating.average}}</text>
+  </view>
+  </block>  
+</view>

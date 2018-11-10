@@ -1,0 +1,35 @@
+.slide swiper{
+  height:580rpx
+}
+swiper image{
+  width:100%;
+  height: 100%;
+}
+.board{
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+
+}
+.board .board-item{
+  display: flex;
+  vertical-align: center;
+  padding: 30rpx;
+  border: 1px solid #eee;
+  margin-top: 30rpx;
+  flex: 1;
+  background: #ee8888;
+}
+.board .board-item:hover{
+  background: #ff6699;
+}
+
+.board .board-item text{
+  vertical-align: center;
+  flex:1;
+}
+.board .board-item image{
+  margin: auto 0;
+  width:35rpx;
+  height: 35rpx;
+}

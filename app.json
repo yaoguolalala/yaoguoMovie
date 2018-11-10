@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/item/item",
+    "pages/list/list",
+    "pages/search/search"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#ff6699",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "腰果电影"
+  }
+}

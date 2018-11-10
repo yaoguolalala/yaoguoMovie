@@ -1,0 +1,43 @@
+<view class='container'>
+  <view class='slide'>
+   <swiper autoplay='4000' indicator-dots>
+    <block wx:for='{{imgUrls}}' wx:key='key'>
+      <swiper-item>
+        <image src='{{item}}' mode='aspectFill'></image>
+      </swiper-item>
+    </block>
+   </swiper>
+  </view>
+  <view class='board'>
+
+  <navigator hover-class='none' url='../list/list?type=in_theaters&name=正在热映'>
+     <view class='board-item'>
+      <text>正在热映</text>
+     <image src='/images/jiantou.png'></image>
+    </view>
+  </navigator>
+
+  <navigator hover-class='none' url='../list/list?type=coming_soon&name=即将上映'>
+     <view class='board-item'>
+      <text>即将上映</text>
+     <image src='/images/jiantou.png'></image>
+    </view>
+  </navigator>
+
+  <navigator hover-class='none'  url='../list/list?type=top250&name=Top20'>
+     <view class='board-item'>
+      <text>Top20</text>
+     <image src='/images/jiantou.png'></image>
+    </view>
+  </navigator>
+
+    <navigator hover-class='none'  url='../list/list?type=us_box&name=北美票房榜'>
+     <view class='board-item'>
+      <text>北美票房榜</text>
+     <image src='/images/jiantou.png'></image>
+    </view>
+  </navigator>
+  
+   
+  </view>
+</view>
